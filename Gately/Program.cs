@@ -15,21 +15,30 @@ namespace Gately
     class Program
     {
         private string db = @"data source=C:\Users\MHUEY\Desktop\rg\database";
-        private string dataFolder = @"C:\Users\MHUEY\Desktop\rg\data\";
+        private string dataFolder = @"C:\Users\MHUEY\Desktop\rg\data\"; 
 
         static void Main(string[] args)
         {
-            //new Program().getFollowing();
-            //new Program().createTables();
+            ////******
+            //new Program().createTables(); //creates tables
 
-            var userFollowers = new LL.GetFollowers.GetFollowers(@"C:\Users\MHUEY\Desktop\rg\data\");
-            userFollowers.get(new User
-                {
-                    key = "Heide_Castaneda"
-                });
+            ////******
+            //var userFollowers = new LL.GetFollowers.GetFollowers(@"C:\Users\MHUEY\Desktop\rg\data\"); //gets followers and saves for a user
+            //userFollowers.get(new User
+            //    {
+            //        key = "Heide_Castaneda"
+            //    });
+
+            //******
+            new LL.GetMembers.GetMembers().get(); //get members of organization
+
+            ////******
+            //new LL.GetOrganizations.GetOrganizations().get();
 
             Console.ReadLine();
         }
+
+ 
 
         private void createTables()
         {

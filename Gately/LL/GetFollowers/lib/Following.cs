@@ -70,15 +70,16 @@ namespace Gately.LL.GetFollowers.lib
         private dynamic parse(dynamic item)
         {
             var data = item["data"];
+            var u = new Utility();
+
             return new
             {
-                rId = item["id"].ToString(),
-                name = data["displayName"].ToString(),
-                key = data["accountKey"].ToString(),
-                org = data["professionalInstitutionName"].ToString(),
-                orgUrl = data["professionalInstitutionUrl"].ToString().Replace(@"\/", @"/"),
-                url = data["url"].ToString().Replace(@"\/", @"/"),
-                imgUrl = data["imageUrl"].ToString().Replace(@"\/", @"/")
+                name = u.safeGet(data["displayName"]),
+                key = u.safeGet(data["accountKey"]),
+                org = u.safeGet(data["professionalInstitutionName"]),
+                orgUrl = u.safeGet(data["professionalInstitutionUrl"]).Replace(@"\/", @"/"),
+                url = u.safeGet(data["url"]).Replace(@"\/", @"/"),
+                imgUrl = u.safeGet(data["imageUrl"]).Replace(@"\/", @"/")
             };
         }
 

@@ -4,3 +4,10 @@ c:\users\mhuey\documents\visual studio 2012\Projects\Gately\Gately\bin\Debug\Gat
 c:\users\mhuey\documents\visual studio 2012\Projects\Gately\Gately\obj\Debug\Gately.exe
 c:\users\mhuey\documents\visual studio 2012\Projects\Gately\Gately\obj\Debug\Gately.pdb
 c:\users\mhuey\documents\visual studio 2012\Projects\Gately\Gately\bin\Debug\System.Data.SQLite.dll
+C:\Users\MHUEY\Desktop\APPS\Gately\Gately\bin\Debug\Gately.exe.config
+C:\Users\MHUEY\Desktop\APPS\Gately\Gately\bin\Debug\Gately.exe
+C:\Users\MHUEY\Desktop\APPS\Gately\Gately\bin\Debug\Gately.pdb
+C:\Users\MHUEY\Desktop\APPS\Gately\Gately\bin\Debug\System.Data.SQLite.dll
+C:\Users\MHUEY\Desktop\APPS\Gately\Gately\obj\Debug\Gately.csprojResolveAssemblyReference.cache
+C:\Users\MHUEY\Desktop\APPS\Gately\Gately\obj\Debug\Gately.exe
+C:\Users\MHUEY\Desktop\APPS\Gately\Gately\obj\Debug\Gately.pdb

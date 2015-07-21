@@ -56,6 +56,10 @@
     <Compile Include="LL\GetFollowers\lib\Following.cs" />
     <Compile Include="LL\GetFollowers\GetFollowers.cs" />
     <Compile Include="LL\GetFollowers\lib\worker.cs" />
+    <Compile Include="LL\GetOrganizations\GetOrganizations.cs" />
+    <Compile Include="LL\GetOrganizations\lib\worker.cs" />
+    <Compile Include="LL\GetMembers\GetMembers.cs" />
+    <Compile Include="LL\GetMembers\lib\worker.cs" />
     <Compile Include="LL\WebReq\Request.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Program.cs" />
@@ -64,6 +68,7 @@
     <Compile Include="SQLiteHelper\SQLiteColumnList.cs" />
     <Compile Include="SQLiteHelper\SQLiteHelper.cs" />
     <Compile Include="SQLiteHelper\SQLiteTable.cs" />
+    <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,0 +1,6 @@
+c:\users\mhuey\documents\visual studio 2012\Projects\Gately\Gately\bin\Debug\Gately.exe.config
+c:\users\mhuey\documents\visual studio 2012\Projects\Gately\Gately\bin\Debug\Gately.exe
+c:\users\mhuey\documents\visual studio 2012\Projects\Gately\Gately\bin\Debug\Gately.pdb
+c:\users\mhuey\documents\visual studio 2012\Projects\Gately\Gately\obj\Debug\Gately.exe
+c:\users\mhuey\documents\visual studio 2012\Projects\Gately\Gately\obj\Debug\Gately.pdb
+c:\users\mhuey\documents\visual studio 2012\Projects\Gately\Gately\bin\Debug\System.Data.SQLite.dll

@@ -99,7 +99,7 @@ namespace Gately.LL.GetMembers.lib
             try
             {
                 added = false;
-                var list = new List<dynamic>();
+                var count = 0;
                 var u = new Utility();
                 dynamic dyn;
                 var x = new JavaScriptSerializer().Deserialize<dynamic>(text);
@@ -110,6 +110,7 @@ namespace Gately.LL.GetMembers.lib
                 {
                     try
                     {
+                        count++;
                         data = p["data"];
                         dyn = new
                         {
@@ -126,14 +127,14 @@ namespace Gately.LL.GetMembers.lib
                     catch { }
                 }
 
-                if (list != null && list.Count > 0)
+                if (count > 0)
                 {
                     added = true;
                 }
 
-                return list;
+                return null;
             }
-            catch
+            catch (Exception ex)
             {
                 added = false;
                 return null;

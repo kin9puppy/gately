@@ -24,6 +24,10 @@ namespace Gately.LL.GetFollowers.lib
         public void saveUser(User user)
         {
             user.following = getAllFollowing(user.key);
+            if (user.following != null) {
+                Console.WriteLine(user.following.Count + " contacts");
+                File.AppendAllText(dataFolder + "_total", user.following.Count.ToString() + Environment.NewLine);
+            }
             var text = new JavaScriptSerializer().Serialize(user);
             File.WriteAllText(dataFolder + user.key, text);
         }
@@ -51,7 +55,7 @@ namespace Gately.LL.GetFollowers.lib
 
 
                 if (added == false)
-                { //if parsed all of followers before reaching 150
+                { //if parsed all of followers before reaching 150 
                     break;
                 }
             }

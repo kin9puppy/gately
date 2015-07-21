@@ -22,15 +22,12 @@ namespace Gately
             ////******
             //new Program().createTables(); //creates tables
 
-            ////******
-            //var userFollowers = new LL.GetFollowers.GetFollowers(@"C:\Users\MHUEY\Desktop\rg\data\"); //gets followers and saves for a user
-            //userFollowers.get(new User
-            //    {
-            //        key = "Heide_Castaneda"
-            //    });
+            //******
+            new LL.GetFollowers.GetFollowers().get(); //gets followers and saves for a user
+
 
             //******
-            new LL.GetMembers.GetMembers().get(); //get members of organization
+            //new LL.GetMembers.GetMembers().get(); //get members of organization
 
             ////******
             //new LL.GetOrganizations.GetOrganizations().get();

@@ -53,13 +53,11 @@ namespace Gately.LL.GetFollowers.lib
                     }
                 }
 
-                Console.WriteLine("New contacts:" + count);
                 added = (count > 0);
                 return list;
             }
             else
             {
-                Console.WriteLine("end");
                 added = false;
             }
 

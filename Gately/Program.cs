@@ -22,12 +22,12 @@ namespace Gately
             ////******
             //new Program().createTables(); //creates tables
 
-            //******
-            new LL.GetFollowers.GetFollowers().get(); //gets followers and saves for a user
+            ////******
+            //new LL.GetFollowers.GetFollowers().get(); //gets followers and saves for a user
 
 
-            //******
-            //new LL.GetMembers.GetMembers().get(); //get members of organization
+            ////******
+            new LL.GetMembers.GetMembers().get(); //get members of organization
 
             ////******
             //new LL.GetOrganizations.GetOrganizations().get();

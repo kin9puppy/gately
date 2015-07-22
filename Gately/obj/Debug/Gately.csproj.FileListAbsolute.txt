@@ -11,3 +11,10 @@ C:\Users\MHUEY\Desktop\APPS\Gately\Gately\bin\Debug\System.Data.SQLite.dll
 C:\Users\MHUEY\Desktop\APPS\Gately\Gately\obj\Debug\Gately.csprojResolveAssemblyReference.cache
 C:\Users\MHUEY\Desktop\APPS\Gately\Gately\obj\Debug\Gately.exe
 C:\Users\MHUEY\Desktop\APPS\Gately\Gately\obj\Debug\Gately.pdb
+C:\Users\Michael\Desktop\apps\gately\Gately\bin\Debug\Gately.exe.config
+C:\Users\Michael\Desktop\apps\gately\Gately\obj\Debug\Gately.exe
+C:\Users\Michael\Desktop\apps\gately\Gately\obj\Debug\Gately.pdb
+C:\Users\Michael\Desktop\apps\gately\Gately\bin\Debug\Gately.exe
+C:\Users\Michael\Desktop\apps\gately\Gately\bin\Debug\Gately.pdb
+C:\Users\Michael\Desktop\apps\gately\Gately\bin\Debug\System.Data.SQLite.dll
+C:\Users\Michael\Desktop\apps\gately\Gately\obj\Debug\Gately.csprojResolveAssemblyReference.cache
